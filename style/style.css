@@ -1,5 +1,6 @@
 body {
 	font-family: 'Open Sans', 'Helvetica Neue', 'Arial' sans-serif;
+	-webkit-font-smoothing: antialiased;
 }
 .wrapper-class {
 	position:relative;
@@ -11,6 +12,7 @@ body {
 	/*width:200px;*/
 	width:150px;
 	height:auto;
+	float:left;
 }
 .logo-wrapper img {
 	max-width: 100%;
@@ -24,9 +26,12 @@ body {
 	height:auto;
 	background-color:#ffffff;
 	box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.33);
+	padding: 20px 0;
 }
 .wrapper-class.message-holder {
-	background-color:#CD4247;
+	/*background: url("http://keystonejs.com/images/intro-bg-inverse.png") no-repeat right bottom #348dd9;*/
+	background: url("../img/shirtbg.jpg") no-repeat #348dd9;
+	background-size:cover;
 	position:relative;
 	top:0;
 	left:0;
@@ -39,9 +44,22 @@ body {
 	padding: 25px 0px 25px 0px;
 	text-shadow: 0px 1px 1px rgba(0,0,0,0.25);
 }
+
+.wrapper-class.message-holder h1 {
+	font-size: 55px;
+	font-weight: 100;
+	margin-right: 10%;
+}
+.wrapper-class.message-holder p {
+	font-size:18px;
+	font-weight:100;
+	margin-right:10%;
+}
+
+
 .wrapper-class.message-holder a {
 	color:#FFFFFF;
-	text-decoration:underline;
+	text-decoration:none;
 }
 .wrapper-class.message-holder a:hover {
 	color:#dddddd;
@@ -86,4 +104,164 @@ body {
 	background-color:#33364A;
 	padding:10px;
 	color:#FFFFFF;
+}
+
+
+
+/*Buttons*/
+@media (min-width: 768px)
+.wrapper-class .custom-btn-lg {
+font-size: 20px;
+}
+.wrapper-class .custom-btn-primary {
+background-color: white;
+color: #333 !important;
+}
+.wrapper-class .custom-btn-primary a {
+	text-decoration:none !important;
+}
+.wrapper-class .custom-btn {
+border: 2px solid transparent;
+margin-right: 10px;
+padding-left: 2em;
+padding-right: 2em;
+}
+.custom-btn-lg {
+padding: 10px 16px;
+font-size: 19px;
+line-height: 1.33;
+border-radius: 6px;
+}
+.custom-btn-primary {
+color: #fff;
+background-color: #348dd9;
+border-color: #2680cd;
+}
+.custom-btn {
+display: inline-block;
+margin-bottom: 0;
+font-weight: normal;
+text-align: center;
+vertical-align: middle;
+cursor: pointer;
+background-image: none;
+border: 1px solid transparent;
+white-space: nowrap;
+padding: 6px 12px;
+font-size: 15px;
+line-height: 1.42857143;
+border-radius: 4px;
+-webkit-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+-o-user-select: none;
+user-select: none;
+}
+
+
+/*Navigation Menu*/
+.main-nav {
+	float: right;
+}
+.main-nav .collapse {
+display: block;
+}
+.main-nav__nav {
+list-style: none;
+margin: 0;
+padding: 0;
+}
+
+.main-nav li {
+float: left;
+}
+
+.main-nav__nav .active a {
+-webkit-box-shadow: 0 -2px #fff inset,0 -5px #CD4247 inset;
+box-shadow: 0 -2px #fff inset,0 -5px #CD4247 inset;
+background: none transparent;
+color: #222;
+}
+
+.main-nav__nav a {
+color: #555;
+display: block;
+padding: 0 15px;
+text-decoration: none;
+height: 70px;
+}
+
+.main-nav {
+height: 50px;
+line-height: 35px;
+position: relative;
+z-index: 1;
+}
+
+.docs-nav__collapse.in {
+clear: left;
+}
+.collapse.in {
+display: block;
+}
+
+.collapse {
+display: none;
+}
+
+.mobile-nav-menu {
+	/*position: absolute;
+	z-index: 1;
+	background-color: #fff;
+	width: 100%;*/
+}
+.mobile-nav__collapse ul {
+	list-style: none;
+	margin-left:-40px;
+}
+.mobile-nav__collapse li {
+
+}
+.mobile-nav__collapse li a:active {
+}
+
+.mobile-nav .active a {
+-webkit-box-shadow: 3px 0 #348dd9 inset;
+box-shadow: 3px 0 #348dd9 inset;
+background-color: #fafafa;
+}
+
+.mobile-nav__nav a {
+	color: #555;
+display: block;
+padding: 0 15px;
+text-decoration: none;
+height: 45px;
+line-height: 45px;
+}
+
+.mobile-nav__nav .active a {
+background: none transparent;
+color: #222;
+padding-left: 15px;
+border-left: 4px #CD4247 solid;
+}
+/*Sub Header*/
+.page-subheader {
+background-color: #fafafa;
+border-bottom: 1px solid #eee;
+line-height: 1;
+padding: 1em 0;
+}
+.page-subheader .social-buttons {
+float: right;
+}
+.page-subheader p {
+margin: 0;
+}
+.page-subheader .social-button {
+display: inline-block;
+}
+.icon-bar {
+	background-color: #348dd9 !important;
 }
