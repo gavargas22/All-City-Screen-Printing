@@ -12,4 +12,10 @@ $(document).ready(function() {
 					e.preventDefault();
 					wizard.show();
 				});
+				
+				$('#open-wizard-larger').click(function(e) {
+					e.preventDefault();
+					wizard.show();
+				});
+				
 			});
