@@ -23,13 +23,20 @@
 		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
 		<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
 		<![endif]-->
+
+		<!-- Jotform -->
+		<link href="https://static-interlogyllc.netdna-ssl.com/static/formCss.css?3.2.1639" rel="stylesheet" type="text/css" />
+		<link type="text/css" rel="stylesheet" href="https://static-interlogyllc.netdna-ssl.com/css/styles/nova.css?3.2.1639" />
+		<link type="text/css" media="print" rel="stylesheet" href="https://static-interlogyllc.netdna-ssl.com/css/printForm.css?3.2.1639" />
+		
 	</head>
 	<body>
 
 		<div class="wrapper-class top-header">
 			<div class="container">
 
-				<div class="logo-wrapper"><a href="/"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/allcity3.png" />
+				<div class="logo-wrapper">
+					<a href="/"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/allcity3.png" />
 				</div></a>
 
 				<nav class="main-nav hidden-xs hidden-sm">
