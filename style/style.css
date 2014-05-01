@@ -327,8 +327,11 @@ padding-bottom: 20px;
 
 /* Styling for the work tiles*/
 .work-tile-image-holder {
-    width:200px;
-    height:200px;
+    width:400px;
+}
+.work-tile-image-holder img {
+    max-width: 100%;
+    height: auto;
 }
 .work-tile-description-holder {
     position:absolute;
