@@ -9,20 +9,7 @@
     <div class="wrapper-class">
       <div class="container">
         <div class="row">
-          <div class="col-sm-3">
-            <nav class="docs-sidebar hidden-xs">
-              <ul class="sidebar-nav">
-                <li class="active"><a href="/services/screen-printing" class="nav-heading">Screen Printing</a></li>
-                <li><a href="/services/embroidery" class="nav-heading">Embroidery</a></li>
-                <li><a href="/services/design" class="nav-heading">Graphic Design</a></li>
-                <li><a href="/services/other" class="nav-heading">Other</a></li>
-              </ul><hr>
-              <ul class="sidebar-nav">
-                <button id="open-wizard" class="custom-btn custom-btn-lg custom-btn-primary">Get Started</button>
-              </ul>
-            </nav>
-          </div>
-          <div class="col-sm-9">
+          <div class="col-sm-12">
             <div class="docs-content">
             <?php if (have_posts()) : ?>
         	<?php while (have_posts()) : the_post(); ?>
