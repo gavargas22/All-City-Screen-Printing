@@ -49,10 +49,10 @@
 								<a href="services">Services</a>
 							</li>
 							<li>
-								<a href="/work">Work Samples</a>
+								<a href="work">Work Samples</a>
 							</li>
 							<li>
-								<a href="/contact">Direct Contact</a>
+								<a href="contact">Direct Contact</a>
 							</li>
 						</ul>
 					</div>

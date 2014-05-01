@@ -324,3 +324,17 @@ margin: 60px 0 20px 0;
 padding-bottom: 20px;
 }
 /*-------------*/
+
+/* Styling for the work tiles*/
+.work-tile-image-holder {
+    width:200px;
+    height:200px;
+}
+.work-tile-description-holder {
+    position:absolute;
+    bottom:20px;
+    color:#ffffff;
+    padding:15px;
+    font-weight:bold;
+    font-size:12px;
+}
