@@ -335,7 +335,7 @@ padding-bottom: 20px;
     height: auto;
 }
 .work-tile-description-holder {
-    position:absolute;
+    position:relative;
     bottom:20px;
     color:#ffffff;
     padding:15px;
