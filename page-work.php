@@ -9,28 +9,14 @@
     <div class="wrapper-class">
         <div class="row">
             <div class="col-sm-12">
-                <div class="docs-content">
-                    <div class="work-tile">
-                        <div class="work-tile-image-holder">
-                            <img src="https://dov5cor25da49.cloudfront.net/products/4459/1272x920shirt_guys_01.jpg"
-                            />
-                        </div>
-                        <div class="work-tile-description-holder">
-                            <h4>Rocket Science</h4>
-                        </div>
+                <div class="work-tile">
+                    <div class="work-tile-image-holder">
+                        <img src="https://dov5cor25da49.cloudfront.net/products/4459/1272x920shirt_guys_01.jpg"
+                        />
                     </div>
-                    <?php if (have_posts()) : ?>
-                        <?php while (have_posts()) : the_post(); ?>
-                            <h1>
-                                <?php the_title(); ?>
-                            </h1>
-                            <p>
-                                <p>
-                                    <?php the_content(); ?>
-                                </p>
-                            </p>
-                            <?php endwhile; ?>
-                                <?php endif; ?>
+                    <div class="work-tile-description-holder">
+                        <h4>Rocket Science</h4>
+                    </div>
                 </div>
             </div>
         </div>
