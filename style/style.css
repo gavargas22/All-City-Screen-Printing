@@ -328,6 +328,7 @@ padding-bottom: 20px;
 /* Styling for the work tiles*/
 .work-tile-image-holder {
     width:400px;
+    float:left;
 }
 .work-tile-image-holder img {
     max-width: 100%;
