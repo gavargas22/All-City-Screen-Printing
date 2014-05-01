@@ -326,6 +326,9 @@ padding-bottom: 20px;
 /*-------------*/
 
 /* Styling for the work tiles*/
+.work-tile {
+    position:relative;
+}
 .work-tile-image-holder {
     width:400px;
     float:left;
@@ -335,7 +338,7 @@ padding-bottom: 20px;
     height: auto;
 }
 .work-tile-description-holder {
-    position:relative;
+    position:absolute;
     bottom:20px;
     color:#ffffff;
     padding:15px;
