@@ -20,6 +20,33 @@ body {
     background-color: #ebf4fb;
     padding-bottom: 0;
 }
+
+/*Form Styling*/
+/*.canvas-option-holder {
+    width: 200px;
+}*/
+.custom-radio-btn input {
+    visibility: hidden;
+}
+.canvas-option-holder label img {
+    max-width: 100%;
+    height: auto;
+    cursor: pointer;
+}
+.canvas-option-holder label {
+    text-align: center;
+}
+.highlight {
+    padding: 9px 14px;
+    margin-bottom: 14px;
+    background-color: #f7f7f9;
+    border: 1px solid #e1e1e8;
+    border-radius: 4px;
+}
+.shirt-wizard h1 {
+    font-weight: bold;
+}
+
 /*-----------------*/
  .logo-wrapper {
     /*width:200px;*/

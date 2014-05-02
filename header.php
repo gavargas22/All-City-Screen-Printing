@@ -12,8 +12,6 @@
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,600,300' rel='stylesheet' type='text/css'>
 		<link href="<?php bloginfo('stylesheet_directory'); ?>/style/bootstrap-wizard.css" rel="stylesheet" />
 		<link href="http://max.jotfor.ms/static/formCss.css?3.2.1589" rel="stylesheet" type="text/css" />
-		<link type="text/css" rel="stylesheet" href="http://max.jotfor.ms/css/styles/nova.css?3.2.1589" />
-		<link type="text/css" media="print" rel="stylesheet" href="http://max.jotfor.ms/css/printForm.css?3.2.1589" />
 
 		<!-- Optional theme -->
 		<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
@@ -23,11 +21,6 @@
 		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
 		<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
 		<![endif]-->
-
-		<!-- Jotform -->
-		<link href="https://static-interlogyllc.netdna-ssl.com/static/formCss.css?3.2.1639" rel="stylesheet" type="text/css" />
-		<link type="text/css" rel="stylesheet" href="https://static-interlogyllc.netdna-ssl.com/css/styles/nova.css?3.2.1639" />
-		<link type="text/css" media="print" rel="stylesheet" href="https://static-interlogyllc.netdna-ssl.com/css/printForm.css?3.2.1639" />
 		
 	</head>
 	<body>

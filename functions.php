@@ -23,4 +23,10 @@ function register_my_menu() {
 }
 add_action( 'init', 'register_my_menu' );
 
+function mh_load_my_script() {
+    wp_enqueue_script( 'jquery' );
+}
+
+add_action( 'wp_enqueue_scripts', 'mh_load_my_script' );
+
 ?>

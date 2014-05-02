@@ -1,8 +1,4 @@
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="http://max.jotfor.ms/static/jotform.js?3.2.1589" type="text/javascript"></script>
-<script type="text/javascript">
-   JotForm.init();
-</script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <!-- Latest compiled and minified JavaScript -->

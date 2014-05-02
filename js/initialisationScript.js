@@ -5,7 +5,7 @@ $(document).ready(function() {
 		keyboard : true,
 		contentHeight : 700,
 		contentWidth : 700,
-		backdrop : 'static',
+		backdrop : true,
 		submitUrl: "http://submit.jotform.us/submit/41107452846150/"
 	});
 
