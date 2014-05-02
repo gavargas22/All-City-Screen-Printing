@@ -366,3 +366,19 @@ and (min-width : 641px) {
     	float:left;
 	}
 }
+
+/*Services CSS*/
+.services-image-holder img {
+    max-width: 100%;
+    height: auto;
+}
+.services-title-holder {
+    position: absolute;
+    top:0;
+    width:auto;
+    font-size:30px;
+    font-weight:bold;
+    padding: 10px 20px 10px 20px;
+    color:#fff;
+    background: rgba(51, 54, 74, 0.7);
+}

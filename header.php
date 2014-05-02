@@ -40,23 +40,9 @@
 				</div></a>
 
 				<nav class="main-nav hidden-xs hidden-sm">
-					<div class="main-nav__collapse collapse">
-						<ul class="main-nav__nav">
-							<li class="active">
-								<a href="/">Home</a>
-							</li>
-							<li>
-								<a href="services">Services</a>
-							</li>
-							<li>
-								<a href="work">Work Samples</a>
-							</li>
-							<li>
-								<a href="contact">Direct Contact</a>
-							</li>
-						</ul>
-					</div>
+				<?php wp_nav_menu( array( 'theme_location' => 'header-menu', 'container_class' => 'main-nav__collapse collapse', 'menu_class' => 'main-nav__nav' ) ); ?>
 				</nav>
+
 
 				<button type="button" data-toggle="collapse" data-target=".mobile-nav__collapse" class="navbar-toggle navbar-toggle-menu">
 					<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
@@ -64,21 +50,7 @@
 
 			</div>
 		</div>
+
 		<nav class="mobile-nav-menu">
-			<div class="mobile-nav__collapse collapse" style="height: auto;">
-				<ul class="mobile-nav__nav">
-					<li class="active">
-						<a href="/">Home</a>
-					</li>
-					<li>
-						<a href="services">Services</a>
-					</li>
-					<li>
-						<a href="work">Work Samples</a>
-					</li>
-					<li>
-						<a href="contact">Direct Contact</a>
-					</li>
-				</ul>
-			</div>
+			<?php wp_nav_menu( array( 'theme_location' => 'header-menu', 'container_class' => 'mobile-nav__collapse collapse', 'menu_class' => 'mobile-nav__nav' ) ); ?>
 		</nav>
