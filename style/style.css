@@ -3,7 +3,7 @@ body {
     -webkit-font-smoothing: antialiased;
 }
 ::selection {
-    background: #333;
+    background: #33364A;
     color: #FFFFFF;
 }
 .wrapper-class {
@@ -326,20 +326,43 @@ padding-bottom: 20px;
 /*-------------*/
 
 /* Styling for the work tiles*/
-.work-tile {
-    position:relative;
-    width:356px;
-    float:left;
-}
+
 .work-tile-image-holder img {
     max-width: 100%;
     height: auto;
 }
 .work-tile-description-holder {
     position:absolute;
-    top:50%;
+    bottom:0;
     color:#ffffff;
     padding:15px;
     font-weight:bold;
     font-size:12px;
+}
+.work-tile-description-holder p {
+	background:#33364A;
+	padding:5px;
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen 
+and (max-width : 640px) {
+	.work-tile {
+		padding-left:0 !important;
+		padding-right:0 !important;
+    	position:relative;
+    	float:left;
+    	width: 100%;
+	}
+}
+
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-width : 641px) {
+	.work-tile {
+		padding-left:0 !important;
+		padding-right:0 !important;
+    	position:relative;
+    	float:left;
+	}
 }

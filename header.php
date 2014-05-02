@@ -71,13 +71,13 @@
 						<a href="/">Home</a>
 					</li>
 					<li>
-						<a href="/getting-started">Services</a>
+						<a href="services">Services</a>
 					</li>
 					<li>
-						<a href="/docs">Work Samples</a>
+						<a href="work">Work Samples</a>
 					</li>
 					<li>
-						<a href="/examples">Direct Contact</a>
+						<a href="contact">Direct Contact</a>
 					</li>
 				</ul>
 			</div>

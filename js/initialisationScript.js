@@ -3,7 +3,7 @@ $(document).ready(function() {
 	//var Dropzone = require("dropzone");
 	var wizard = $('#some-wizard').wizard({
 		keyboard : true,
-		contentHeight : 1000,
+		contentHeight : 900,
 		contentWidth : 700,
 		backdrop : 'static',
 		submitUrl: "http://submit.jotform.us/submit/41107452846150/"
