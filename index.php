@@ -7,9 +7,10 @@
 		</p>
 		<!--<p class="buttons"><a href="#" title="Submit your shirt design here" class="custom-btn custom-btn-lg custom-btn-primary" id="open-wizard"><span class="hidden-xs">Get Started</span><span class="visible-xs">Start</span></a>
 	</p>-->
-	<button id="open-wizard" class="custom-btn custom-btn-lg custom-btn-primary">
+	<!--<button id="open-wizard" class="custom-btn custom-btn-lg custom-btn-primary">
 		Get Started
-	</button>
+	</button>-->
+	<a class="custom-btn custom-btn-lg custom-btn-primary" href="job">Get Started</a>
 </div>
 </div>
 
@@ -39,9 +40,8 @@
 				<p class="lead">
 					We have a new system that makes it easy to get your printed or embroidered item quick.
 				</p>
-				<button id="open-wizard-larger" class="custom-btn custom-btn-lg custom-btn-primary">
-					Get Started
-				</button>
+
+				<a class="custom-btn custom-btn-lg custom-btn-primary" href="job">Get Started</a>
 			</div>
 		</div>
 	</section>

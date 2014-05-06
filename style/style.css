@@ -370,7 +370,14 @@ padding-bottom: 20px;
 	background:#33364A;
 	padding:5px;
 }
-
+.work-tile-custom {
+    height: 100px;
+    line-height: 30px;
+    text-align: center;
+}
+.work-tile-image-holder label {
+    cursor: pointer;
+}
 /* Smartphones (portrait) ----------- */
 @media only screen 
 and (max-width : 640px) {
