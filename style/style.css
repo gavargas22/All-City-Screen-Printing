@@ -46,7 +46,17 @@ body {
 .shirt-wizard h1 {
     font-weight: bold;
 }
-
+.row-separation {
+    padding-bottom: 20px;
+}
+.dropbox-box {
+    height: 200px;
+    width: 100%;
+    background: url(../images/dropbox.png) no-repeat;
+    cursor: pointer;
+    line-height: 450px;
+    overflow: hidden;
+}
 /*-----------------*/
  .logo-wrapper {
     /*width:200px;*/

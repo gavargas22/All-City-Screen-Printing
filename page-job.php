@@ -31,7 +31,7 @@
       <form class="jotform-form" action="http://submit.jotform.us/submit.php" method="post" enctype="multipart/form-data" name="form_41107452846150" id="41107452846150" accept-charset="utf-8">
   <input type="hidden" name="formID" value="41107452846150" />
   <div class="form-all">
-    <div class="row">
+    <div class="row row-separation">
       <div class="col-sm-4 work-tile-image-holder">
         <label class="form-label-top" id="label_3" for="input_3"></label>
         <div id="cid_3" class="form-input-wide">
@@ -69,7 +69,7 @@
       </div>
     </div>
 
-    <div class="row">
+    <div class="row row-separation">
       <h2>What kind of job is it?</h2>
       <div class="col-sm-6 work-tile-custom" style="backgorund-image:url(http://tshirtstarter.com/wp-content/uploads/2011/10/print-example-6.jpg);">
         <label class="form-label-top" id="label_7" for="input_7">  </label>
@@ -97,11 +97,13 @@
 
     </div>
 
-        <h1>2. Upload your design.</h1>
+    <div class="row row-separation">
+      <h1>2. Upload your design.</h1>
         <label class="form-label-top" id="label_6" for="input_6">  </label>
         <div id="cid_6" class="form-input-wide">
-          <input class="form-upload" type="file" id="input_6" name="q6_input6" file-accept="pdf, doc, docx, xls, xlsx, csv, txt, rtf, html, zip, mp3, wma, mpg, flv, avi, jpg, jpeg, png, gif" file-maxsize="1024" />
+          <input class="form-upload dropbox-box" type="file" id="input_6" name="q6_input6" file-accept="pdf, zip, jpg, jpeg, png, gif, ai" file-maxsize="1024" />
         </div>
+    </div>
 
 
         <h1>3. Contact information.</h1>
