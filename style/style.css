@@ -68,17 +68,6 @@ body {
     -webkit-border-radius: 3px;
     border-radius: 3px;
 }
-.row-separation {
-    padding-bottom: 20px;
-}
-.dropbox-box {
-    height: 200px;
-    width: 100%;
-    background: url(../images/dropbox.png) no-repeat;
-    cursor: pointer;
-    line-height: 450px;
-    overflow: hidden;
-}
 /*-----------------*/
  .logo-wrapper {
     /*width:200px;*/
@@ -268,9 +257,9 @@ body {
 }
 .mobile-nav-menu {
     /*position: absolute;
-	z-index: 1;
-	background-color: #fff;
-	width: 100%;*/
+    z-index: 1;
+    background-color: #fff;
+    width: 100%;*/
 }
 .navbar-toggle {
     padding: 25px 10px !important;
@@ -402,15 +391,13 @@ padding-bottom: 20px;
     font-size:12px;
 }
 .work-tile-description-holder p {
-	background:#33364A;
-	padding:5px;
+    background:#33364A;
+    padding:5px;
 }
 .work-tile-custom {
     height: 100px;
     line-height: 30px;
     text-align: center;
-    color:#fff;
-
 }
 .work-tile-image-holder label {
     cursor: pointer;
@@ -418,24 +405,24 @@ padding-bottom: 20px;
 /* Smartphones (portrait) ----------- */
 @media only screen 
 and (max-width : 640px) {
-	.work-tile {
-		padding-left:0 !important;
-		padding-right:0 !important;
-    	position:relative;
-    	float:left;
-    	width: 100%;
-	}
+    .work-tile {
+        padding-left:0 !important;
+        padding-right:0 !important;
+        position:relative;
+        float:left;
+        width: 100%;
+    }
 }
 
 /* Desktops and laptops ----------- */
 @media only screen 
 and (min-width : 641px) {
-	.work-tile {
-		padding-left:0 !important;
-		padding-right:0 !important;
-    	position:relative;
-    	float:left;
-	}
+    .work-tile {
+        padding-left:0 !important;
+        padding-right:0 !important;
+        position:relative;
+        float:left;
+    }
 }
 
 /*Services CSS*/
