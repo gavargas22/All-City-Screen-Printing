@@ -477,3 +477,10 @@ and (min-width : 641px) {
   top: 0;
   left: 4px;
 }
+
+/*Custom Job Selector*/
+.job-type-custom-selector {
+    height: 200px;
+    width: 100%;
+    posit
+}

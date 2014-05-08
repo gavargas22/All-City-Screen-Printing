@@ -89,14 +89,14 @@
 
     <div class="row row-separation">
       <h1>2. What kind of job is it?</h1>
-      <div class="col-sm-6 work-tile-custom" style="background-image:url(http://images.reachsite.com/110c9404-e917-465b-b1cd-8e91a5b89fe4/media/821506/original/821506.jpg); background-size:cover;">
+      <div class="col-sm-6 work-tile-custom">
 
         <label class="form-label-top" id="label_7" for="input_7">  </label>
         <div id="cid_7" class="form-input-wide">
           <div class="form-single-column">
             <span class="form-checkbox-item" style="clear:left;">
               <input type="checkbox" class="form-checkbox" id="input_7_0" name="q7_input7[]" value="Screen Printing" />
-              <label for="input_7_0"> Screen Printing </label></span>
+              <label for="input_7_0" class="job-type-custom-selector" style="background-image:url(http://images.reachsite.com/110c9404-e917-465b-b1cd-8e91a5b89fe4/media/821506/original/821506.jpg); background-size:cover;"> Screen Printing </label></span>
             <span class="clearfix"></span>
           </div>
         </div>
@@ -164,9 +164,7 @@
         </div>
       </div>
     </div>
-
         
-
         <label class="form-label-left" id="label_13" for="input_13"> Desired Delivery Date </label>
         <div id="cid_13" class="form-input">
           <span class="form-sub-label-container">
