@@ -7,12 +7,12 @@
 		<title>All City Screen Printing | El Paso, Texas</title>
 
 		<!-- Latest compiled and minified CSS made for WordPress -->
+		<link rel="shortcut icon" href="<?php bloginfo('stylesheet_directory'); ?>/images/favico.png">
+		<link rel="apple-touch-icon" href="<?php bloginfo('stylesheet_directory'); ?>/images/favico.png" />
 		<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
 		<link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/style/style.css">
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,600,300' rel='stylesheet' type='text/css'>
 		<link href="<?php bloginfo('stylesheet_directory'); ?>/style/bootstrap-wizard.css" rel="stylesheet" />
-		<link href="http://max.jotfor.ms/static/formCss.css?3.2.1589" rel="stylesheet" type="text/css" />
-
 		<!-- Optional theme -->
 		<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
 		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -29,7 +29,7 @@
 			<div class="container">
 
 				<div class="logo-wrapper">
-					<a href="/"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/allcity3.png" />
+					<a href="/"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/AllcityLongExtra-Red.png" />
 				</div></a>
 
 				<nav class="main-nav hidden-xs hidden-sm">

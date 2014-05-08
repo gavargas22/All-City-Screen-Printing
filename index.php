@@ -1,15 +1,10 @@
 <?php get_header(); ?>
 <div class="wrapper-class message-holder">
 	<div class="container">
-		<h1>Local and fast, <span style="text-decoration:underline;">no headaches</span> screen printing.</h1>
+		<h1>The <span style="text-decoration:underline;">no headaches</span> custom apparel shop.</h1>
 		<p>
-			Don't let a computer control your next shirt, let us give you the best service experience.
+			Avoid yourself a migraine with our fast and local service.
 		</p>
-		<!--<p class="buttons"><a href="#" title="Submit your shirt design here" class="custom-btn custom-btn-lg custom-btn-primary" id="open-wizard"><span class="hidden-xs">Get Started</span><span class="visible-xs">Start</span></a>
-	</p>-->
-	<button id="open-wizard" class="custom-btn custom-btn-lg custom-btn-primary">
-		Get Started
-	</button>
 </div>
 </div>
 
@@ -25,7 +20,7 @@
 			</div>-->
 		</div>
 		<p>
-			We are El Paso's best and most advanced Screen Printing business.
+			Advanced screen printing in El Paso, Texas.
 		</p>
 	</div>
 </div>
@@ -37,11 +32,10 @@
 			<div class="section-header">
 				<h2 class="text-center">Ready to go?</h2>
 				<p class="lead">
-					We have a new system that makes it easy to get your printed or embroidered item quick.
+					We have a new system that makes it easy to get your screen-printed or embroidered items.
 				</p>
-				<button id="open-wizard-larger" class="custom-btn custom-btn-lg custom-btn-primary">
-					Get Started
-				</button>
+
+				<a class="custom-btn custom-btn-lg custom-btn-primary" href="job">Get Started</a>
 			</div>
 		</div>
 	</section>
@@ -50,7 +44,7 @@
 			<div class="section-header"></div>
 			<h2>Easy Screen Printing</h2>
 			<p class="lead">
-				Do you need to print some shirts quick and easy? We believe in making it simple for our clients to get their shirts quick!
+				Need to print some shirts quick and easy? We believe in making it simple for our clients.
 			</p>
 		</div>
 		<div class="container admin-image-full"><img src="http://keystonejs.com/images/home/admin-interface.png" class="img-responsive"></div>

@@ -1,6 +1,7 @@
 $(document).ready(function() {
 	
-	//var Dropzone = require("dropzone");
+	var Dropzone = require("dropzone");
+	
 	var wizard = $('#some-wizard').wizard({
 		keyboard : true,
 		contentHeight : 700,
@@ -20,3 +21,12 @@ $(document).ready(function() {
 	});
 
 });
+
+(function ($) {
+  $('.spinner .btn:first-of-type').on('click', function() {
+    $('.spinner input').val( parseInt($('.spinner input').val(), 10) + 1);
+  });
+  $('.spinner .btn:last-of-type').on('click', function() {
+    $('.spinner input').val( parseInt($('.spinner input').val(), 10) - 1);
+  });
+})(jQuery);

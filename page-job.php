@@ -1,122 +1,94 @@
 <?php get_header(); ?>
 <div style="background-image:url(<?php bloginfo('stylesheet_directory'); ?>/images/background.png)" class="wrapper-class message-holder">
-	<div class="container">
-		<h1>Get Started.</h1>
-		<p>Submit your job order and we will have it in no time for you.</p>
-	</div>
+  <div class="container">
+    <h1>Get Started.</h1>
+    <p>Submit your job order and we will have it in no time for you.</p>
+  </div>
 </div>
 
 <section class="shirt-wizard">
-	<div class="container">
-		<form class="jotform-form" action="http://submit.jotform.us/submit/41107452846150/" method="post" enctype="multipart/form-data" name="form_41107452846150" id="41107452846150" accept-charset="utf-8">
-		<script src="http://max.jotfor.ms/static/jotform.js?3.2.1674" type="text/javascript"></script>
-		<script type="text/javascript">
-		   JotForm.init(function(){
-		      $('input_10').hint('ex: myname@example.com');
-		      JotForm.setCalendar("13", false);
-		      JotForm.displayLocalTime("hour_13", "min_13", "ampm_13");
-		   });
-		</script>
-		<input type="hidden" name="formID" value="41107452846150" />
+  <div class="container">
+    <div class="part1">
+      <h1>What you need to know.</h1>
 
-		<div class="part1">
-			<h1>What you will need.</h1>
+      <h4>Here are some things that we need from you.</h4>
 
-			<h4>Before starting the process, here are some things you need to know.</h4>
+      <ol>
+        <li>
+          A <b>PDF</b> or <b>AI</b> (vector) file of your artwork, <a href="contact">if you have a question about this contact your designer or contact us.</a>
+        </li>
+        <li>
+          The amount of shirts that will be printed
+        </li>
+      </ol>
 
-			<h5>You will need the following</h5>
-
-			<ol>
-				<li>
-					The artwork that you want to print in PDF or AI format.
-				</li>
-				<li></li>
-			</ol>
-		</div>
-
-		<div class="part2">
-			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-			<script src="<?php bloginfo('stylesheet_directory'); ?>/js/button-javascript.js" type="text/javascript"></script>
-
-			<h1>1. Select your canvas</h1>
-			<div class="canvas-option-holder">
-				<div class="row">
-					<div class="col-sm-4 custom-radio-btn">
-						<label for="tShirt"><img src="<?php bloginfo('stylesheet_directory'); ?>/img/shirt.jpg">T-Shirt</label>
-						<input type="checkbox" name="canvas" id="tShirt" />
-					</div>
-
-					<div class="col-sm-4 custom-radio-btn">
-						<label for="poloShirt"><img src="http://www.publicdomainpictures.net/pictures/40000/nahled/polo-shirt-illustration.jpg">Polo</label>
-						<input type="checkbox" name="canvas" id="poloShirt" />
-					</div>
-
-					<div class="col-sm-4 custom-radio-btn">
-						<label for="hoodie"><img src="<?php bloginfo('stylesheet_directory'); ?>/img/shirt3.jpg">Hoodie</label>
-						<input type="checkbox" name="canvas" id="hoodie" />
-					</div>
-				</div>
-			</div>
-		</div>
-
-		<div class="part3">
-			<h1>2. Upload your design.</h1>
-			<form action="/file-upload" class="dropzone">
-				<div class="fallback">
-					<input name="file" type="file" multiple />
-				</div>
-			</form>
-		</div>
-
-		<div class="part4">
-			<h1>3. Contact.</h1>
-		</div>
-		</form>
-		  <input type="hidden" id="simple_spc" name="simple_spc" value="41107452846150" />
-		  <script type="text/javascript">
-		  	document.getElementById("si" + "mple" + "_spc").value = "41107452846150-41107452846150";
-		  </script>
-	</div>
-</section>
-
-<?php get_footer(); ?>
-
+    </div>
+    <hr>
+    <div class="part2">
+      <h1>1. Select your canvas</h1>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+      <script type="text/javascript" src="<?php bloginfo('stylesheet_directory'); ?>/js/button-javascript.js"></script>
+      <form class="jotform-form" action="http://submit.jotform.us/submit.php" method="post" enctype="multipart/form-data" name="form_41107452846150" id="41107452846150" accept-charset="utf-8">
+  <input type="hidden" name="formID" value="41107452846150" />
   <div class="form-all">
-    <ul class="form-section">
-      <li class="form-line form-line-column" id="id_3">
-        <label class="form-label-top" id="label_3" for="input_3">  </label>
+    <div class="row row-separation">
+      <div class="col-sm-4 work-tile-image-holder">
+        <label class="form-label-top" id="label_3" for="input_3"></label>
         <div id="cid_3" class="form-input-wide">
           <div class="form-single-column">
             <span class="form-checkbox-item" style="clear:left;">
-              <input type="checkbox" class="form-checkbox" id="input_3_0" name="q3_input3[]" value="T-Shirt" />
-              <label for="input_3_0"> T-Shirt </label></span>
+              <input type="checkbox" class="form-checkbox from-control" id="input_3_0" name="q3_input3[]" value="T-Shirt" />
+              <label for="input_3_0"> <img src="<?php bloginfo('stylesheet_directory'); ?>/img/shirt.jpg"> </label></span>
             <span class="clearfix"></span>
           </div>
+
+        <label class="form-label-top" id="label_14" for="input_14"> # of T-Shirts </label>
+        <div id="cid_14" class="form-input-wide">
+          <input type="number" id="input_14" name="q14_Of" data-type="input-spinner" class="form-spinner-input form-textbox" />
         </div>
-      </li>
-      <li class="form-line form-line-column" id="id_4">
+
+        </div>
+      </div>
+
+      <div class="col-sm-4 work-tile-image-holder">
         <label class="form-label-top" id="label_4" for="input_4">  </label>
         <div id="cid_4" class="form-input-wide">
           <div class="form-single-column">
             <span class="form-checkbox-item" style="clear:left;">
-              <input type="checkbox" class="form-checkbox" id="input_4_0" name="q4_input4[]" value="Hoodie" />
-              <label for="input_4_0"> Hoodie </label></span>
+              <input type="checkbox" class="form-checkbox from-control" id="input_4_0" name="q4_input4[]" value="Hoodie" />
+              <label for="input_4_0"> <img src="http://www.publicdomainpictures.net/pictures/40000/nahled/polo-shirt-illustration.jpg"> </label></span>
             <span class="clearfix"></span>
           </div>
+
+          <label class="form-label-top" id="label_15" for="input_15"> # of Hoodies </label>
+        <div id="cid_15" class="form-input-wide">
+          <input type="number" id="input_15" name="q15_Of15" data-type="input-spinner" class="form-spinner-input form-textbox" />
         </div>
-      </li>
-      <li class="form-line form-line-column" id="id_5">
+        </div>
+      </div>
+
+      <div class="col-sm-4 work-tile-image-holder">
         <label class="form-label-top" id="label_5" for="input_5">  </label>
         <div id="cid_5" class="form-input-wide">
           <div class="form-single-column">
             <span class="form-checkbox-item" style="clear:left;">
               <input type="checkbox" class="form-checkbox" id="input_5_0" name="q5_input5[]" value="Jacket" />
-              <label for="input_5_0"> Jacket </label></span>
+              <label for="input_5_0"> <img src="<?php bloginfo('stylesheet_directory'); ?>/img/shirt3.jpg"> </label></span>
             <span class="clearfix"></span>
           </div>
+          <label class="form-label-top" id="label_16" for="input_16"> # of Polo </label>
+        <div id="cid_16" class="form-input-wide">
+          <input type="number" id="input_16" name="q16_Of16" data-type="input-spinner" class="form-spinner-input form-textbox" />
         </div>
-      </li>
-      <li class="form-line form-line-column" id="id_7">
+        </div>
+      </div>
+    </div>
+
+    <hr>
+
+    <div class="row row-separation">
+      <h1>2. What kind of job is it?</h1>
+      <div class="col-sm-6 work-tile-custom" style="background-image:url(http://images.reachsite.com/110c9404-e917-465b-b1cd-8e91a5b89fe4/media/821506/original/821506.jpg); background-size:cover;">
         <label class="form-label-top" id="label_7" for="input_7">  </label>
         <div id="cid_7" class="form-input-wide">
           <div class="form-single-column">
@@ -126,8 +98,9 @@
             <span class="clearfix"></span>
           </div>
         </div>
-      </li>
-      <li class="form-line form-line-column" id="id_8">
+      </div>
+
+      <div class="col-sm-6 work-tile-custom" style="background-image:url(http://proimagenj.com/wp-content/uploads/toys-r-us.jpg); background-size:cover;">
         <label class="form-label-top" id="label_8" for="input_8">  </label>
         <div id="cid_8" class="form-input-wide">
           <div class="form-single-column">
@@ -137,44 +110,61 @@
             <span class="clearfix"></span>
           </div>
         </div>
-      </li>
-      <li class="form-line form-line-column" id="id_6">
+      </div>
+
+    </div>
+    <hr>
+    <div class="row row-separation">
+      <h1>3. Upload your design.</h1>
+
         <label class="form-label-top" id="label_6" for="input_6">  </label>
-        <div id="cid_6" class="form-input-wide">
-          <input class="form-upload" type="file" id="input_6" name="q6_input6" file-accept="pdf, doc, docx, xls, xlsx, csv, txt, rtf, html, zip, mp3, wma, mpg, flv, avi, jpg, jpeg, png, gif" file-maxsize="1024" />
+        <div id="cid_6" class="form-input-wide custom-dropzone">
+          
+          <form action="/file-upload" class="dropzone form-upload dropbox-box">
+          <div class="fallback">
+          <input class="form-upload dropbox-box" id="input_6" name="q6_input6" type="file" file-accept="pdf, zip, jpg, jpeg, png, gif, ai" file-maxsize="1024" />
+          </div>
+          </form>
+
+          <!--<input class="form-upload dropbox-box" type="file" id="input_6" name="q6_input6" file-accept="pdf, zip, jpg, jpeg, png, gif, ai" file-maxsize="1024" />-->
         </div>
-      </li>
-      <li class="form-line" id="id_9">
-        <label class="form-label-left" id="label_9" for="input_9"> Name </label>
+    </div>
+    <hr>
+    <div class="row row-separation">
+      <h1>4. Give us some info.</h1>
+      <div class="col-sm-5">
         <div id="cid_9" class="form-input">
           <span class="form-sub-label-container">
-            <input class="form-textbox" type="text" size="10" name="q9_name[first]" id="first_9" />
             <label class="form-sub-label" for="first_9" id="sublabel_first"> First Name </label></span>
-          <span class="form-sub-label-container">
-            <input class="form-textbox" type="text" size="15" name="q9_name[last]" id="last_9" />
+            <input class="form-textbox form-control" type="text" size="10" name="q9_name[first]" id="first_9" />
             <label class="form-sub-label" for="last_9" id="sublabel_last"> Last Name </label></span>
+          <span class="form-sub-label-container">
+            <input class="form-textbox form-control" type="text" size="15" name="q9_name[last]" id="last_9" />
         </div>
-      </li>
-      <li class="form-line" id="id_10">
+      </div>
+      <div class="col-sm-5">
         <label class="form-label-left" id="label_10" for="input_10"> Email </label>
         <div id="cid_10" class="form-input">
-          <input type="email" class=" form-textbox validate[Email]" id="input_10" name="q10_email" size="30" value="" />
+          <input type="email" class="form-textbox validate[Email] form-control" id="input_10" name="q10_email" size="30" value="" />
         </div>
-      </li>
-      <li class="form-line" id="id_11">
+
         <label class="form-label-left" id="label_11" for="input_11"> Telephone </label>
-        <div id="cid_11" class="form-input">
+        <div id="cid_11" class="form-input form-inline">
           <span class="form-sub-label-container">
-            <input class="form-textbox" type="tel" name="q11_telephone[area]" id="input_11_area" size="3">
+          <label class="form-sub-label" for="input_11_area" id="sublabel_area"></label></span>
+            <input class="form-textbox form-control" type="tel" name="q11_telephone[area]" id="input_11_area" size="3">
             -
-            <label class="form-sub-label" for="input_11_area" id="sublabel_area"> Area Code </label></span>
           <span class="form-sub-label-container">
-            <input class="form-textbox" type="tel" name="q11_telephone[phone]" id="input_11_phone" size="8">
-            <label class="form-sub-label" for="input_11_phone" id="sublabel_phone"> Phone Number </label></span>
+            <input class="form-textbox form-control" type="tel" name="q11_telephone[phone]" id="input_11_phone" size="8">
+            <label class="form-sub-label" for="input_11_phone" id="sublabel_phone"></label>
+            </span>
         </div>
-      </li>
-      <li class="form-line" id="id_13">
-        <label class="form-label-left" id="label_13" for="input_13"> Delivery Date </label>
+      </div>
+    </div>
+
+        
+
+        <label class="form-label-left" id="label_13" for="input_13"> Desired Delivery Date </label>
         <div id="cid_13" class="form-input">
           <span class="form-sub-label-container">
             <input class="form-textbox" id="month_13" name="q13_deliveryDate[month]" type="tel" size="2" maxlength="2" value="" />
@@ -197,8 +187,7 @@
               </div>
             </label></span>
         </div>
-      </li>
-      <li class="form-line" id="id_12">
+
         <label class="form-label-left" id="label_12" for="input_12"> Delivery Address </label>
         <div id="cid_12" class="form-input">
           <table summary="" class="form-address-table" border="0" cellpadding="0" cellspacing="0">
@@ -245,8 +234,7 @@
             </tr>
           </table>
         </div>
-      </li>
-      <li class="form-line" id="id_2">
+
         <div id="cid_2" class="form-input-wide">
           <div style="margin-left:156px" class="form-buttons-wrapper">
             <button id="input_2" type="submit" class="form-submit-button">
@@ -254,10 +242,19 @@
             </button>
           </div>
         </div>
-      </li>
       <li style="display:none">
         Should be Empty:
         <input type="text" name="website" value="" />
       </li>
-    </ul>
   </div>
+  <input type="hidden" id="simple_spc" name="simple_spc" value="41107452846150" />
+  <script type="text/javascript">
+  document.getElementById("si" + "mple" + "_spc").value = "41107452846150-41107452846150";
+  </script>
+</form>
+    </div>
+
+  </div>
+</section>
+
+<?php get_footer(); ?>
