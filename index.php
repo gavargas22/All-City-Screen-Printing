@@ -5,15 +5,12 @@
 		<p>
 			Avoid yourself a migraine with our fast and local service.
 		</p>
-<<<<<<< HEAD
-=======
 		<!--<p class="buttons"><a href="#" title="Submit your shirt design here" class="custom-btn custom-btn-lg custom-btn-primary" id="open-wizard"><span class="hidden-xs">Get Started</span><span class="visible-xs">Start</span></a>
 	</p>-->
 	<!--<button id="open-wizard" class="custom-btn custom-btn-lg custom-btn-primary">
 		Get Started
 	</button>-->
 	<a class="custom-btn custom-btn-lg custom-btn-primary" href="job">Get Started</a>
->>>>>>> 2431a0e97a89773e34400e4648f9401b9064e3b8
 </div>
 </div>
 

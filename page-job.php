@@ -9,7 +9,6 @@
 <section class="shirt-wizard">
   <div class="container">
     <div class="part1">
-<<<<<<< HEAD
       <h1>What you need to know.</h1>
 
       <h4>Here are some things that we need from you.</h4>
@@ -25,23 +24,6 @@
 
     </div>
     <hr>
-=======
-      <h1>What you will need.</h1>
-
-      <h4>Before starting the process, here are some things you need to know.</h4>
-
-      <h5>You will need the following</h5>
-
-      <ol>
-        <li>
-          The artwork that you want to print in PDF or AI format.
-        </li>
-        <li></li>
-      </ol>
-
-    </div>
-
->>>>>>> 2431a0e97a89773e34400e4648f9401b9064e3b8
     <div class="part2">
       <h1>1. Select your canvas</h1>
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
@@ -64,11 +46,8 @@
         <div id="cid_14" class="form-input-wide">
           <input type="number" id="input_14" name="q14_Of" data-type="input-spinner" class="form-spinner-input form-textbox" />
         </div>
-<<<<<<< HEAD
 
         </div>
-=======
->>>>>>> 2431a0e97a89773e34400e4648f9401b9064e3b8
       </div>
 
       <div class="col-sm-4 work-tile-image-holder">
@@ -85,10 +64,7 @@
         <div id="cid_15" class="form-input-wide">
           <input type="number" id="input_15" name="q15_Of15" data-type="input-spinner" class="form-spinner-input form-textbox" />
         </div>
-<<<<<<< HEAD
         </div>
-=======
->>>>>>> 2431a0e97a89773e34400e4648f9401b9064e3b8
       </div>
 
       <div class="col-sm-4 work-tile-image-holder">
@@ -104,7 +80,6 @@
         <div id="cid_16" class="form-input-wide">
           <input type="number" id="input_16" name="q16_Of16" data-type="input-spinner" class="form-spinner-input form-textbox" />
         </div>
-<<<<<<< HEAD
         </div>
       </div>
     </div>
@@ -114,14 +89,12 @@
     <div class="row row-separation">
       <h1>2. What kind of job is it?</h1>
       <div class="col-sm-6 work-tile-custom" style="background-image:url(http://images.reachsite.com/110c9404-e917-465b-b1cd-8e91a5b89fe4/media/821506/original/821506.jpg); background-size:cover;">
-=======
       </div>
     </div>
 
     <div class="row row-separation">
       <h2>What kind of job is it?</h2>
       <div class="col-sm-6 work-tile-custom" style="backgorund-image:url(http://tshirtstarter.com/wp-content/uploads/2011/10/print-example-6.jpg);">
->>>>>>> 2431a0e97a89773e34400e4648f9401b9064e3b8
         <label class="form-label-top" id="label_7" for="input_7">  </label>
         <div id="cid_7" class="form-input-wide">
           <div class="form-single-column">
@@ -133,11 +106,8 @@
         </div>
       </div>
 
-<<<<<<< HEAD
       <div class="col-sm-6 work-tile-custom" style="background-image:url(http://proimagenj.com/wp-content/uploads/toys-r-us.jpg); background-size:cover;">
-=======
       <div class="col-sm-6 work-tile-custom" style="backgorund-image:url(http://tshirtstarter.com/wp-content/uploads/2011/10/print-example-6.jpg);">
->>>>>>> 2431a0e97a89773e34400e4648f9401b9064e3b8
         <label class="form-label-top" id="label_8" for="input_8">  </label>
         <div id="cid_8" class="form-input-wide">
           <div class="form-single-column">
@@ -150,7 +120,6 @@
       </div>
 
     </div>
-<<<<<<< HEAD
     <hr>
     <div class="row row-separation">
       <h1>3. Upload your design.</h1>
@@ -175,7 +144,6 @@
           <span class="form-sub-label-container">
             <label class="form-sub-label" for="first_9" id="sublabel_first"> First Name </label></span>
             <input class="form-textbox form-control" type="text" size="10" name="q9_name[first]" id="first_9" />
-=======
 
     <div class="row row-separation">
       <h1>2. Upload your design.</h1>
@@ -195,23 +163,19 @@
             <label class="form-sub-label" for="first_9" id="sublabel_first"> First Name </label></span>
           <span class="form-sub-label-container">
             <input class="form-textbox form-control" type="text" size="15" name="q9_name[last]" id="last_9" />
->>>>>>> 2431a0e97a89773e34400e4648f9401b9064e3b8
             <label class="form-sub-label" for="last_9" id="sublabel_last"> Last Name </label></span>
           <span class="form-sub-label-container">
             <input class="form-textbox form-control" type="text" size="15" name="q9_name[last]" id="last_9" />
         </div>
-<<<<<<< HEAD
       </div>
       <div class="col-sm-5">
         <label class="form-label-left" id="label_10" for="input_10"> Email </label>
         <div id="cid_10" class="form-input">
           <input type="email" class="form-textbox validate[Email] form-control" id="input_10" name="q10_email" size="30" value="" />
-=======
 
         <label class="form-label-left" id="label_10" for="input_10"> Email </label>
         <div id="cid_10" class="form-input">
           <input type="email" class=" form-textbox validate[Email] form-control" id="input_10" name="q10_email" size="30" value="" />
->>>>>>> 2431a0e97a89773e34400e4648f9401b9064e3b8
         </div>
 
         <label class="form-label-left" id="label_11" for="input_11"> Telephone </label>
@@ -225,17 +189,14 @@
             <label class="form-sub-label" for="input_11_phone" id="sublabel_phone"></label>
             </span>
         </div>
-<<<<<<< HEAD
       </div>
     </div>
 
         
 
         <label class="form-label-left" id="label_13" for="input_13"> Desired Delivery Date </label>
-=======
 
         <label class="form-label-left" id="label_13" for="input_13"> Delivery Date </label>
->>>>>>> 2431a0e97a89773e34400e4648f9401b9064e3b8
         <div id="cid_13" class="form-input">
           <span class="form-sub-label-container">
             <input class="form-textbox" id="month_13" name="q13_deliveryDate[month]" type="tel" size="2" maxlength="2" value="" />
