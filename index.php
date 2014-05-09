@@ -6,8 +6,6 @@
 			Avoid yourself a migraine with our fast and local service.
 		</p>
 
-	<a class="custom-btn custom-btn-lg custom-btn-primary" href="job">Get Started</a>
-
 </div>
 </div>
 
