@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<div style="background-image:url(<?php bloginfo('stylesheet_directory'); ?>/images/background.png)" class="wrapper-class message-holder">
+<div class="wrapper-class message-holder">
       <div class="container">
         <h1>Services.</h1>
         <p>Take a look and find out why El Paso makes their shirts with us.</p>

@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-<div style="background-image:url(<?php bloginfo('stylesheet_directory'); ?>/images/background.png)" class="wrapper-class message-holder">
+<div class="wrapper-class message-holder">
 	<div class="container">
 		<h1>Work Samples</h1>
 		<p>

@@ -2,7 +2,7 @@
 
 <script type="text/javascript"src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB4xKGXg5aY_0umRphlyqZ_BHST3pqTsDY&sensor=false"></script>
 <script src="<?php bloginfo('stylesheet_directory'); ?>/js/mapLoader.js"></script>
-<div style="background-image:url(<?php bloginfo('stylesheet_directory'); ?>/images/background.png)" class="wrapper-class message-holder">
+<div class="wrapper-class message-holder">
       <div class="container">
         <h1>Direct Contact</h1>
         <p>This is if you prefer to contact us directly.</p>
