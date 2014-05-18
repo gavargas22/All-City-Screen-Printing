@@ -8,6 +8,7 @@ if ( function_exists( 'add_theme_support' ) ) {
 	add_theme_support( 'post-thumbnails' );
 	set_post_thumbnail_size( 800, 600 );
 	add_image_size( 'single-thumb', 800, 9999 ); //300 pixels wide (and unlimited height)
+    add_image_size( 'work-sample-thumbnail', 636, 460 );
 }
 
 add_filter('nav_menu_css_class' , 'special_nav_class' , 10 , 2);

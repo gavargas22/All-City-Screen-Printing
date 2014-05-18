@@ -61,5 +61,22 @@
 			</div>
 		</div>
 	</div>
+
+	<?php 
+		$args = array( 'post_type' => 'work_sample', 'posts_per_page' => 10 );
+		$loop = new WP_Query( $args );
+		while ( $loop->have_posts() ) : $loop->the_post();
+	?>
+	<div class="work-tile col-xs-3">
+		<div class="work-tile-image-holder">
+			<a href="<?php the_permalink(); ?>"><?php if ( has_post_thumbnail() ) {the_post_thumbnail();} ?></a>
+			<div class="work-tile-description-holder">
+				<p><?php the_title(); ?></p>
+			</div>
+		</div>
+	</div>
+	<?php endwhile; ?>
+
 </div>
+
 <?php get_footer(); ?>
