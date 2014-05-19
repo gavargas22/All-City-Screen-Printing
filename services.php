@@ -18,9 +18,9 @@ get_header(); ?>
             <nav class="docs-sidebar hidden-xs">
             <h2>Menu</h2>
               <ul class="sidebar-nav">
-                <li><a href="/services/screen-printing" class="nav-heading">Screen Printing</a></li>
-                <li><a href="/services/embroidery" class="nav-heading">Embroidery</a></li>
-                <li><a href="/services/design" class="nav-heading">Graphic Design</a></li>
+                <li><a href="#screen-printing" class="nav-heading">Screen Printing</a></li>
+                <li><a href="#embroidery" class="nav-heading">Embroidery</a></li>
+                <li><a href="#design" class="nav-heading">Graphic Design</a></li>
                 <!--<li><a href="/services/other" class="nav-heading">Other</a></li>-->
               </ul><hr>
               <ul class="sidebar-nav">
@@ -29,7 +29,7 @@ get_header(); ?>
             </nav>
           </div>
           <div class="col-sm-9">
-            <div class="docs-content">
+            <div class="docs-content custom-posts-with-style">
             <?php if (have_posts()) : ?>
               <?php while (have_posts()) : the_post(); ?>
                 <h1><?php the_title(); ?></h1>

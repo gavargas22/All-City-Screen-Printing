@@ -499,3 +499,23 @@ and (min-width : 641px) {
     box-shadow: 0 1px 2px rgba(0,0,0,.075);
     border: 5px solid #FCB040;
 }
+
+/*Custom styling for the services page*/
+.custom-posts-with-style h3 {
+    font-size: 50px;
+    color: #fff;
+    background-image: url(http://upload.wikimedia.org/wikipedia/commons/b/b9/TeeshirtCopyleft_cadre.jpg);
+    background-size: cover;
+    background-position: 50% 67%;
+    padding: 10px;
+    font-weight: 400;
+    text-shadow: 1px 1px 1px #333;
+}
+.custom-posts-with-style h3.embroidery-tag {
+    background-image: url(http://www.alaskatextiles.com/site_images/Embroidery-6.jpg);
+    background-position: 50% 50%;
+}
+.custom-posts-with-style h3.design-tag {
+    background-image: url(http://youandsaturation.com/wp-content/uploads/2013/10/graphic_design_inspiration_11.jpg);
+    background-position: 50% 24%;
+}
