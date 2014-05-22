@@ -14,17 +14,17 @@ get_header(); ?>
     <div class="wrapper-class" style="padding-bottom: 50px;">
       <div class="container">
         <div class="row">
-          <div class="col-sm-3">
+          <div class="col-sm-3" style="border-right:1px solid #eee;">
             <nav class="docs-sidebar hidden-xs">
-            <h2>Menu</h2>
               <ul class="sidebar-nav">
                 <li><a href="#screen-printing" class="nav-heading">Screen Printing</a></li>
                 <li><a href="#embroidery" class="nav-heading">Embroidery</a></li>
                 <li><a href="#design" class="nav-heading">Graphic Design</a></li>
                 <!--<li><a href="/services/other" class="nav-heading">Other</a></li>-->
               </ul><hr>
-              <ul class="sidebar-nav">
-                <button id="open-wizard" class="custom-btn custom-btn-lg custom-btn-primary">Get Started</button>
+              <ul class="sidebar-nav" style="text-align:center; font-size:14px; font-weight:bold;">
+              <p>Ready to go?</p>
+                <a href="/job" style="background-color:#ccc;" class="custom-btn custom-btn-lg custom-btn-secondary" role="button">Get Started</a>
               </ul>
             </nav>
           </div>

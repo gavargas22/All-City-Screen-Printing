@@ -11,6 +11,7 @@
 		<link rel="apple-touch-icon" href="<?php bloginfo('stylesheet_directory'); ?>/images/favico.png" />
 		<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
 		<link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/style/style.css">
+		<link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/js/fancybox/jquery.fancybox.css" type="text/css" media="screen" />
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,600,300' rel='stylesheet' type='text/css'>
 		<link href="<?php bloginfo('stylesheet_directory'); ?>/style/bootstrap-wizard.css" rel="stylesheet" />
 		<!-- Optional theme -->

@@ -353,9 +353,10 @@ color: #888;
 border-right: 2px #333 solid;
 }
 .sidebar-nav .nav-heading {
-color: #222;
-font-size: 1.25em;
+color: #888;
+font-size: 1.00em;
 margin-top: 30px;
+text-align: center;
 }
 .sidebar-nav a {
 color: #333;
@@ -518,4 +519,8 @@ and (min-width : 641px) {
 .custom-posts-with-style h3.design-tag {
     background-image: url(http://youandsaturation.com/wp-content/uploads/2013/10/graphic_design_inspiration_11.jpg);
     background-position: 50% 24%;
+}
+.custom-posts-with-style img {
+    max-width:100%;
+    height: auto;
 }

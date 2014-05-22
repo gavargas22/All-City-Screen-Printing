@@ -14,11 +14,11 @@
 		<div class="container">
 			<div class="social-buttons hidden-xs hidden-sm">
 				<div class="social-button social-button__twitter">
-					<iframe id="twitter-widget-0" scrolling="no" frameborder="0" allowtransparency="true" src="http://platform.twitter.com/widgets/follow_button.1397165098.html#_=1397851522467&amp;id=twitter-widget-0&amp;lang=en&amp;screen_name=gavargas&amp;show_count=true&amp;show_screen_name=true&amp;size=m" class="twitter-follow-button twitter-follow-button" title="Twitter Follow Button" data-twttr-rendered="true" style="width: 228px; height: 20px;"></iframe>
+					<iframe id="twitter-widget-0" scrolling="no" frameborder="0" allowtransparency="true" src="http://platform.twitter.com/widgets/follow_button.1397165098.html#_=1397851522467&amp;id=twitter-widget-0&amp;lang=en&amp;screen_name=allcityep&amp;show_count=true&amp;show_screen_name=true&amp;size=m" class="twitter-follow-button twitter-follow-button" title="Twitter Follow Button" data-twttr-rendered="true" style="width: 228px; height: 20px;"></iframe>
 				</div>
-				<!--<div class="social-button social-button__github">
-				<iframe src="http://ghbtns.com/github-btn.html?user=JedWatson&amp;repo=keystone&amp;type=watch&amp;count=true" allowtransparency="true" frameborder="0" scrolling="0" width="86" height="20"></iframe>
-			</div>-->
+				<div class="social-button social-button__github">
+					<iframe src="//www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Fallcityep&amp;width=130&amp;layout=button_count&amp;action=like&amp;show_faces=true&amp;share=true&amp;height=21&amp;appId=771052199594024" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:130px; height:21px;" allowTransparency="true"></iframe>
+				</div>
 		</div>
 		<p>
 			Advanced screen printing in El Paso, Texas.
